@@ -1,0 +1,11 @@
+dubbo:
+  application:
+    name: dubbo-service
+  qos-port: 2222
+  registry:
+    address: zookeeper://192.168.0.102:2181
+  protocol:
+    name: dubbo
+    port: 9000
+  metadata-report:
+    address: zookeeper://192.168.0.102:2181
